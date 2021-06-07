@@ -1,7 +1,6 @@
 package com.example.madecapstoneproject.detail
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.example.core.domain.model.Game
@@ -46,7 +45,6 @@ class DetailActivity : AppCompatActivity() {
             statusFavorite = !statusFavorite
             detailGameViewModel.setFavoriteGame(detailGame, statusFavorite)
             setStatusFavorite(statusFavorite)
-            Toast.makeText(this, "Status = $statusFavorite" , Toast.LENGTH_SHORT).show()
         }
     }
 
