@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game App</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="remove_from_favorite">Remove from Favorite</string>
+    <string name="menu_favorite">Menu Favorite</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
