@@ -21,4 +21,7 @@ dependencies {
     // enkripsi database
     implementation "net.zetetic:android-database-sqlcipher:4.4.0"
     implementation "androidx.sqlite:sqlite-ktx:2.1.0"
+
+    // leak canary
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.4'
 }
