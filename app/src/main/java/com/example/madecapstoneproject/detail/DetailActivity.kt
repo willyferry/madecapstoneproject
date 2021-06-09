@@ -34,6 +34,11 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.title = detailGame.name
         binding.tvName.text = detailGame.name
         binding.tvReleased.text = detailGame.released
+        binding.tvRating.text = "Rating: ${detailGame.rating}"
+        binding.tvRatingsCount.text = "Ratings Count: ${detailGame.ratings_count}"
+        binding.tvReviewsCount.text = "Reviews Count: ${detailGame.reviews_count}"
+        binding.tvGenres.text = "Genres: ${detailGame.genres}"
+        binding.tvTags.text = "Tags: ${detailGame.tags}"
 
         Glide.with(this)
             .load(detailGame.background_image)

@@ -16,4 +16,19 @@ data class GameResponse (
     @field:SerializedName("released")
     var released: String,
 
+    @field:SerializedName("rating")
+    var rating: String,
+
+    @field:SerializedName("ratings_count")
+    var ratings_count: String,
+
+    @field:SerializedName("reviews_count")
+    var reviews_count: String,
+
+    @field:SerializedName("genres")
+    var genres: List<GenreResponse>,
+
+    @field:SerializedName("tags")
+    var tags: List<TagResponse>
+
 )
